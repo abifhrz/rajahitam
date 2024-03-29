@@ -1,0 +1,150 @@
+.jumbotot {
+  padding: 2rem 1rem;
+  padding-bottom: 60px;
+  background-color: #2c2b2b;
+}
+
+.jumbotot img {
+  padding-right: 45px;
+}
+
+h6 {
+  padding-top: 15px;
+}
+
+.me {
+  padding-top: 80px;
+  padding-bottom: 113px;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: #e8e8e8;
+}
+.me div h1 {
+  padding-top: 15px;
+}
+
+.me1 {
+  background-color: #2c2b2b;
+  width: 60px;
+  height: 5px;
+}
+
+.gw {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 15px;
+  background-color: #2c2b2b;
+}
+
+.gw1 {
+  background-color: #ffffff;
+  width: 60px;
+  height: 5px;
+}
+
+.skip {
+  padding-bottom: 15px;
+}
+
+.cd img {
+  padding-left: 2px;
+}
+
+.jeses img {
+  padding-left: 3px;
+}
+
+
+
+.jink {
+  padding: 40px;
+  padding-left: 20px;
+  background-color: #e8e8e8;
+}
+
+.gw2 {
+  background-color: #2c2b2b;
+  width: 20px;
+  height: 5px;
+}
+
+.jink div h6 {
+  padding-bottom: 15px;
+}
+
+.gw3 {
+  background-color: #2c2b2b;
+  width: 60px;
+  height: 5px;
+}
+
+.huge {
+  background-color: #2c2b2b;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+body .sbk svg {
+  background-color: #e8e8e8;
+}
+
+body .xbk svg {
+  background-color: #e8e8e8;
+}
+
+.gw4 {
+  background-color: #ffffff;
+  width: 60px;
+  height: 5px;
+}
+
+.vubik {
+  background-color: #2c2b2b;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body .ggh svg {
+  background-color: #e8e8e8;
+}
+
+.joki {
+  background-color: #e8e8e8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mantap {
+  padding-top: 20px;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-bg: #2c2b2b;
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-color: #2c2b2b;
+  --bs-accordion-bg: #ffffff;
+  --bs-accordion-btn-color: #ffffff;
+  --bs-accordion-btn-bg: #2c2b2b;
+  --bs-accordion-btn-icon: none;
+  --bs-accordion-btn-active-icon: none;
+}
+
+.lawak {
+  background-color: #e8e8e8;
+}
+
+
+.last {
+  background-color: #2c2b2b;
+  padding-top: 130px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
