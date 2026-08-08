@@ -6,6 +6,21 @@
   <title>Portofolio - Abi Fahrezi</title>
   <meta name="description" content="Portofolio Abi Fahrezi - desainer grafis, ilustrator, dan programmer. Desain grafis, ilustrasi, dan proyek aplikasi sederhana." />
   <link rel="icon" href="content/logo.png" type="image/png" />
+  <meta name="theme-color" content="#2c2b2b" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portofolio - Abi Fahrezi" />
+  <meta property="og:description" content="Desainer grafis, ilustrator, dan programmer. Desain grafis, ilustrasi, dan proyek aplikasi sederhana." />
+  <meta property="og:url" content="https://abifhrz.github.io/rajahitam/" />
+  <meta property="og:image" content="https://abifhrz.github.io/rajahitam/content/design1.jpg" />
+  <meta property="og:site_name" content="Portofolio Abi Fahrezi" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portofolio - Abi Fahrezi" />
+  <meta name="twitter:description" content="Desainer grafis, ilustrator, dan programmer." />
+  <meta name="twitter:image" content="https://abifhrz.github.io/rajahitam/content/design1.jpg" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,20 +87,18 @@
       </div>
       <div class="col-12 col-md-7">
         <h1 class="jumbongen text-light">
-          Hi, Watashi no nawa Abi Fahrezi-desu!
+          <span id="typeLine"></span><span class="type-caret"></span>
         </h1>
+        <noscript>Hi, Watashi no nawa Abi Fahrezi-desu!</noscript>
       </div>
     </div>
   </div>
 </section>
-<div class="wave">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2c2b2b" fill-opacity="1" d="M0,160L0,224L65.5,224L65.5,160L130.9,160L130.9,320L196.4,320L196.4,192L261.8,192L261.8,160L327.3,160L327.3,128L392.7,128L392.7,256L458.2,256L458.2,128L523.6,128L523.6,96L589.1,96L589.1,96L654.5,96L654.5,32L720,32L720,224L785.5,224L785.5,64L850.9,64L850.9,160L916.4,160L916.4,64L981.8,64L981.8,160L1047.3,160L1047.3,160L1112.7,160L1112.7,160L1178.2,160L1178.2,160L1243.6,160L1243.6,128L1309.1,128L1309.1,224L1374.5,224L1374.5,64L1440,64L1440,0L1374.5,0L1374.5,0L1309.1,0L1309.1,0L1243.6,0L1243.6,0L1178.2,0L1178.2,0L1112.7,0L1112.7,0L1047.3,0L1047.3,0L981.8,0L981.8,0L916.4,0L916.4,0L850.9,0L850.9,0L785.5,0L785.5,0L720,0L720,0L654.5,0L654.5,0L589.1,0L589.1,0L523.6,0L523.6,0L458.2,0L458.2,0L392.7,0L392.7,0L327.3,0L327.3,0L261.8,0L261.8,0L196.4,0L196.4,0L130.9,0L130.9,0L65.5,0L65.5,0L0,0L0,0Z"></path></svg>
-</div>
 <!-- akhir home -->
 
 <!-- About me -->
 <section id="about" class="me">
-  <div class="container">
+  <div class="container reveal">
     <h1>About Me.</h1>
     <div class="accent-line"></div>
     <h6>Nama saya Abi Fahrezi, saya berumur 15 tahun. Saya masih pemula dalam bidang web programming, desain grafis, dan ilustrasi.</h6>
@@ -93,99 +106,105 @@
 </section>
 <!-- akhir about -->
 
-<!-- skills -->
-<section id="skills" class="gw text-light">
+<!-- stats -->
+<section id="stats" class="stats">
   <div class="container">
-    <h1>My Skills.</h1>
-    <div class="accent-line-light"></div>
-
-    <div class="skill ps">
-      <div class="row align-items-center">
-        <h6><img src="content/logophotoshop.png" width="20" alt="Logo Photoshop" /> Photoshop</h6>
-        <div class="col-12">
-          <div class="progress" role="progressbar" aria-label="Level Photoshop" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar" style="width: 67%"></div>
-          </div>
-        </div>
+    <div class="row g-4 text-center">
+      <div class="col-4 reveal">
+        <div class="stat-num"><span class="count" data-target="4">0</span>+</div>
+        <div class="stat-label">Tahun Pengalaman</div>
       </div>
-    </div>
-
-    <div class="skill cd">
-      <div class="row align-items-center">
-        <h6><img src="content/logocoreldraw.png" width="18" alt="Logo Corel Draw" /> Corel Draw</h6>
-        <div class="col-12">
-          <div class="progress" role="progressbar" aria-label="Level Corel Draw" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar" style="width: 30%"></div>
-          </div>
-        </div>
+      <div class="col-4 reveal">
+        <div class="stat-num"><span class="count" data-target="3">0</span></div>
+        <div class="stat-label">Project</div>
       </div>
-    </div>
-
-    <div class="skill hetml">
-      <div class="row align-items-center">
-        <h6><img src="content/logohtml.png" width="20" alt="Logo HTML" /> HTML</h6>
-        <div class="col-12">
-          <div class="progress" role="progressbar" aria-label="Level HTML" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar" style="width: 43%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skill ceses">
-      <div class="row align-items-center">
-        <h6><img src="content/logocss.png" width="20" alt="Logo CSS" /> CSS</h6>
-        <div class="col-12">
-          <div class="progress" role="progressbar" aria-label="Level CSS" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar" style="width: 23%"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="skill jeses">
-      <div class="row align-items-center">
-        <h6><img src="content/logojs.png" width="20" alt="Logo Javascript" /> Javascript</h6>
-        <div class="col-12">
-          <div class="progress" role="progressbar" aria-label="Level Javascript" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar" style="width: 56%"></div>
-          </div>
-        </div>
+      <div class="col-4 reveal">
+        <div class="stat-num"><span class="count" data-target="5">0</span></div>
+        <div class="stat-label">Skill</div>
       </div>
     </div>
   </div>
 </section>
-<div class="wave dark">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2c2b2b" fill-opacity="1" d="M0,160L0,32L75.8,32L75.8,224L151.6,224L151.6,64L227.4,64L227.4,192L303.2,192L303.2,64L378.9,64L378.9,96L454.7,96L454.7,64L530.5,64L530.5,192L606.3,192L606.3,128L682.1,128L682.1,0L757.9,0L757.9,320L833.7,320L833.7,256L909.5,256L909.5,160L985.3,160L985.3,32L1061.1,32L1061.1,224L1136.8,224L1136.8,64L1212.6,64L1212.6,192L1288.4,192L1288.4,160L1364.2,160L1364.2,192L1440,192L1440,0L1364.2,0L1364.2,0L1288.4,0L1288.4,0L1212.6,0L1212.6,0L1136.8,0L1136.8,0L1061.1,0L1061.1,0L985.3,0L985.3,0L909.5,0L909.5,0L833.7,0L833.7,0L757.9,0L757.9,0L682.1,0L682.1,0L606.3,0L606.3,0L530.5,0L530.5,0L454.7,0L454.7,0L378.9,0L378.9,0L303.2,0L303.2,0L227.4,0L227.4,0L151.6,0L151.6,0L75.8,0L75.8,0L0,0L0,0Z"></path></svg>
-</div>
+<!-- akhir stats -->
+
+<!-- skills -->
+<section id="skills" class="gw text-light">
+  <div class="container reveal">
+    <h1>My Skills.</h1>
+    <div class="accent-line"></div>
+
+    <div class="skill-group">
+      <h5>Hard Skills.</h5>
+      <div class="chip-list">
+        <span class="chip">Photoshop</span>
+        <span class="chip">Corel Draw</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">Javascript</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h5>Soft Skills.</h5>
+      <div class="chip-list">
+        <span class="chip">Komunikasi</span>
+        <span class="chip">Kreativitas</span>
+        <span class="chip">Kerja Sama</span>
+        <span class="chip">Manajemen Waktu</span>
+        <span class="chip">Problem Solving</span>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- akhir skill -->
 
 <!-- Pengalaman -->
 <section id="pengalaman" class="jink">
   <div class="container">
-    <div class="text-dark">
+    <div class="reveal">
       <h1>Pengalaman.</h1>
       <div class="accent-line"></div>
       <h6>Saya sudah menjadi desainer grafis dan programmer sejak 2022 lalu. Berikut adalah pengalaman saya sebagai desainer grafis.</h6>
-      <h5>Freelance.</h5>
-      <div class="mini-line"></div>
-      <h6>
-        Ditahun 2022-2023 saya adalah freelancer desainer grafis diwebsite Microstock, dan Fiverr serta membuat NFT juga namun pada saat itu tak da yg laku.
-      </h6>
     </div>
-    <div class="huge text-light">
-      <h1>Project.</h1>
-      <div class="accent-line-light"></div>
+
+    <div class="timeline mt-5 reveal">
+      <div class="timeline-item">
+        <div class="timeline-dot">1</div>
+        <div class="timeline-card">
+          <h5>Freelance.</h5>
+          <div class="mini-line"></div>
+          <h6>
+            Ditahun 2022-2023 saya adalah freelancer desainer grafis diwebsite Microstock, dan Fiverr serta membuat NFT juga namun pada saat itu tak da yg laku.
+          </h6>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">2</div>
+        <div class="timeline-card">
+          <h5>Desainer Grafis & Programmer.</h5>
+          <div class="mini-line"></div>
+          <h6>
+            Saya sudah menjadi desainer grafis dan programmer sejak 2022 lalu.
+          </h6>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="project" class="vubik">
+<section id="project" class="vubik text-light">
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
+    <div class="reveal">
+      <h1>Project.</h1>
+      <div class="accent-line"></div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+      <div class="col reveal">
         <div class="card h-100">
-          <img src="content/design1.jpg" class="card-img-top" alt="Hasil desain grafis tahun 2023-2024">
+          <button type="button" class="card-img-wrap" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-img="content/design1.jpg" data-caption="Desain Grafis. - Ini adalah hasil desain saya dari tahun 2023-2024." aria-label="Lihat gambar desain grafis">
+            <img src="content/design1.jpg" class="card-img-top" alt="Hasil desain grafis tahun 2023-2024" loading="lazy">
+            <span class="zoom-hint">Lihat</span>
+          </button>
           <div class="card-body">
             <h5 class="card-title text-light">Desain Grafis.</h5>
             <p class="card-text text-light">
@@ -194,9 +213,12 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col reveal">
         <div class="card h-100">
-          <img src="content/design2.jpg" class="card-img-top" alt="Screenshot aplikasi berbasis Javascript">
+          <button type="button" class="card-img-wrap" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-img="content/design2.jpg" data-caption="Aplikasi. - Ini adalah proyek aplikasi sederhana yang saya buat selama menjadi programmer. Dengan bahasa pemrograman &quot;Javascript&quot; saya membuat kalkulator sederhana, penghitung huruf, to-do list dan kuis." aria-label="Lihat gambar aplikasi">
+            <img src="content/design2.jpg" class="card-img-top" alt="Screenshot aplikasi berbasis Javascript" loading="lazy">
+            <span class="zoom-hint">Lihat</span>
+          </button>
           <div class="card-body">
             <h5 class="card-title text-light">Aplikasi.</h5>
             <p class="card-text text-light">
@@ -205,9 +227,12 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col reveal">
         <div class="card h-100">
-          <img src="content/design3.jpg" class="card-img-top" alt="Ilustrasi karya 2023-2024">
+          <button type="button" class="card-img-wrap" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-img="content/design3.jpg" data-caption="Ilustrasi. - Ini adalah ilustrasi yang saya buat dari tahun 2023-2024." aria-label="Lihat gambar ilustrasi">
+            <img src="content/design3.jpg" class="card-img-top" alt="Ilustrasi karya 2023-2024" loading="lazy">
+            <span class="zoom-hint">Lihat</span>
+          </button>
           <div class="card-body">
             <h5 class="card-title text-light">Ilustrasi.</h5>
             <p class="card-text text-light">
@@ -219,14 +244,11 @@
     </div>
   </div>
 </section>
-<div class="wave dark">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2c2b2b" fill-opacity="1" d="M0,256L0,320L75.8,320L75.8,256L151.6,256L151.6,160L227.4,160L227.4,256L303.2,256L303.2,32L378.9,32L378.9,224L454.7,224L454.7,320L530.5,320L530.5,96L606.3,96L606.3,192L682.1,192L682.1,96L757.9,96L757.9,0L833.7,0L833.7,256L909.5,256L909.5,32L985.3,32L985.3,224L1061.1,224L1061.1,32L1136.8,32L1136.8,96L1212.6,96L1212.6,64L1288.4,64L1288.4,288L1364.2,288L1364.2,128L1440,128L1440,0L1364.2,0L1364.2,0L1288.4,0L1288.4,0L1212.6,0L1212.6,0L1136.8,0L1136.8,0L1061.1,0L1061.1,0L985.3,0L985.3,0L909.5,0L909.5,0L833.7,0L833.7,0L757.9,0L757.9,0L682.1,0L682.1,0L606.3,0L606.3,0L530.5,0L530.5,0L454.7,0L454.7,0L378.9,0L378.9,0L303.2,0L303.2,0L227.4,0L227.4,0L151.6,0L151.6,0L75.8,0L75.8,0L0,0L0,0Z"></path></svg>
-</div>
 <!-- akhir project -->
 
 <!-- Pendidikan -->
 <section id="pendidikan" class="joki text-dark">
-  <div class="container">
+  <div class="container reveal">
     <h1>Pendidikan.</h1>
     <div class="accent-line"></div>
     <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
@@ -269,20 +291,67 @@
     </div>
   </div>
 </section>
-<div class="wave">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2c2b2b" fill-opacity="1" d="M0,256L0,96L48,96L48,128L96,128L96,96L144,96L144,288L192,288L192,64L240,64L240,32L288,32L288,256L336,256L336,288L384,288L384,320L432,320L432,256L480,256L480,256L528,256L528,224L576,224L576,256L624,256L624,256L672,256L672,288L720,288L720,0L768,0L768,128L816,128L816,128L864,128L864,192L912,192L912,96L960,96L960,160L1008,160L1008,256L1056,256L1056,320L1104,320L1104,0L1152,0L1152,96L1200,96L1200,192L1248,192L1248,64L1296,64L1296,32L1344,32L1344,32L1392,32L1392,128L1440,128L1440,320L1392,320L1392,320L1344,320L1344,320L1296,320L1296,320L1248,320L1248,320L1200,320L1200,320L1152,320L1152,320L1104,320L1104,320L1056,320L1056,320L1008,320L1008,320L960,320L960,320L912,320L912,320L864,320L864,320L816,320L816,320L768,320L768,320L720,320L720,320L672,320L672,320L624,320L624,320L576,320L576,320L528,320L528,320L480,320L480,320L432,320L432,320L384,320L384,320L336,320L336,320L288,320L288,320L240,320L240,320L192,320L192,320L144,320L144,320L96,320L96,320L48,320L48,320L0,320L0,320Z"></path></svg>
-</div>
 <!-- akhir pendidikan -->
 
 <!-- Contact -->
 <section id="contact" class="last text-light">
-  <div class="container">
+  <div class="container reveal">
     <h1>Mau ngontak aing?</h1>
-    <div class="accent-line-light"></div>
+    <div class="accent-line"></div>
     <h6 class="text-light">Maaf, Sibuk.</h6>
   </div>
 </section>
 <!-- akhir contact -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-md-4 text-center text-md-start">
+        <a class="footer-brand" href="#home">
+          <img src="content/logo.png" alt="Logo Abi Fahrezi" width="28" />
+          <span>Abi Fahrezi</span>
+        </a>
+        <div class="footer-copy">© 2026 Abi Fahrezi. Dibuat dengan <span class="heart">&#9829;</span> &amp; Bootstrap.</div>
+      </div>
+      <div class="col-12 col-md-4 text-center">
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3c.4 2.2 1.8 3.6 4 3.9v3c-1.5.1-2.9-.4-4-1.2v6.4c0 4.5-3.9 6.6-6.8 5-2.8-1.5-3.4-5.2-1.4-7.4 1.2-1.3 3-1.9 4.7-1.7v3.1c-.5-.1-1.1 0-1.5.3-1 .6-1.3 1.8-.7 2.8.6.9 1.9 1.1 2.8.5.5-.4.9-1 .9-1.8V3h4z"/></svg></a>
+          <a href="#" aria-label="X (Twitter)"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-4.9-6.4L6.4 22H3.2l7.3-8.4L1 2h6.4l4.4 5.9L18.9 2zm-1.1 18h1.7L7.1 3.9H5.3L17.8 20z"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.8 9.7.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.2-.4-1.2.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 4-1.4 6.9-5.2 6.9-9.7C22 6.6 17.5 2 12 2z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.2-3.5-.8-2.9-1.2-4.8-4.1-5-4.3-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.2-.3.5-.4.7-.4h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6-.1.2-.2.3-.3.5l-.4.5c-.2.2-.3.4-.1.6.1.3.7 1.2 1.6 1.9 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l2 .9c.3.2.5.3.6.4 0 .1 0 .5-.1.9z"/></svg></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 text-center text-md-end">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- akhir footer -->
+
+<!-- Lightbox modal -->
+<div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content lightbox-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="lightboxTitle">Galeri</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body p-0 text-center">
+        <img id="lightboxImage" src="" alt="Preview" class="img-fluid lightbox-img" />
+        <p id="lightboxCaption" class="lightbox-caption"></p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- back to top -->
 <button id="backToTop" aria-label="Kembali ke atas">
@@ -297,34 +366,98 @@
   crossorigin="anonymous"></script>
 
 <script>
-  const backToTop = document.getElementById('backToTop');
-  const showBackToTop = function () {
-    if (window.scrollY > 400) {
-      backToTop.classList.add('visible');
-    } else {
-      backToTop.classList.remove('visible');
-    }
-  };
-  backToTop.addEventListener('click', function () {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-  showBackToTop();
-  window.addEventListener('scroll', showBackToTop, { passive: true });
+  (function () {
+    /* ===== Back to top ===== */
+    const backToTop = document.getElementById('backToTop');
+    const showBackToTop = function () {
+      if (window.scrollY > 400) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    };
+    backToTop.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    showBackToTop();
+    window.addEventListener('scroll', showBackToTop, { passive: true });
 
-  const progressBars = document.querySelectorAll('.progress-bar');
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.style.width = entry.target.dataset.animateWidth;
-        observer.unobserve(entry.target);
+    /* ===== Navbar auto close on mobile ===== */
+    const navCollapse = document.getElementById('navbarNav');
+    navCollapse.addEventListener('click', function (e) {
+      if (e.target.closest('.nav-link')) {
+        const collapse = bootstrap.Collapse.getOrCreateInstance(navCollapse);
+        if (navCollapse.classList.contains('show')) {
+          collapse.hide();
+        }
       }
     });
-  }, { threshold: 0.4 });
-  progressBars.forEach(function (bar) {
-    bar.dataset.animateWidth = bar.style.width;
-    bar.style.width = '0%';
-    observer.observe(bar);
-  });
+
+    /* ===== Typing effect on hero ===== */
+    const typeLine = document.getElementById('typeLine');
+    const heroText = 'Hi, Watashi no nawa Abi Fahrezi-desu!';
+    let charIndex = 0;
+    const typeTimer = setInterval(function () {
+      typeLine.textContent = heroText.slice(0, charIndex);
+      charIndex += 1;
+      if (charIndex > heroText.length) {
+        clearInterval(typeTimer);
+      }
+    }, 60);
+
+    /* ===== Reveal on scroll ===== */
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function (el) {
+      revealObserver.observe(el);
+    });
+
+    /* ===== Count-up stats ===== */
+    const counters = document.querySelectorAll('.count');
+    const countObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) {
+          return;
+        }
+        const el = entry.target;
+        const target = parseInt(el.dataset.target, 10);
+        const duration = 1200;
+        const start = performance.now();
+        const step = function (now) {
+          const progress = Math.min((now - start) / duration, 1);
+          el.textContent = Math.round(progress * target);
+          if (progress < 1) {
+            requestAnimationFrame(step);
+          }
+        };
+        requestAnimationFrame(step);
+        countObserver.unobserve(el);
+      });
+    }, { threshold: 0.5 });
+    counters.forEach(function (el) {
+      countObserver.observe(el);
+    });
+
+    /* ===== Lightbox ===== */
+    const lightboxImage = document.getElementById('lightboxImage');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    const lightboxTitle = document.getElementById('lightboxTitle');
+    const lightboxModal = document.getElementById('lightboxModal');
+    lightboxModal.addEventListener('show.bs.modal', function (e) {
+      const trigger = e.relatedTarget;
+      lightboxImage.src = trigger.dataset.img;
+      lightboxImage.alt = trigger.dataset.caption;
+      lightboxCaption.textContent = trigger.dataset.caption;
+      lightboxTitle.textContent = trigger.dataset.caption.split(' - ')[0];
+    });
+  })();
 </script>
 </body>
 </html>
